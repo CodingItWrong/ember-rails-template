@@ -6,6 +6,8 @@ A template for an app with Ember as the frontend and a Rails API as the backend.
 - OAuth2 authentication
 - Deployment to Heroku
 
+This template stores the Rails and Ember apps in the same repo, and serves both the Ember app and the API out of Rails. This is useful for simple deployment, but may not be the most resource-efficient for your use case. Many of the patterns in this app (JSON-API setup, OAuth2 integration) will be useful even if your Rails and Ember apps are separated in version control and deployment.
+
 ## Requirements
 
 - Ruby
