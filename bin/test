@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+echo 'running rails tests...' \
+  && bundle exec rspec \
+  && cd ember \
+  && echo 'running ember tests...' \
+  && ember test

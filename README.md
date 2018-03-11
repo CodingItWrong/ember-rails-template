@@ -1,24 +1,27 @@
-# README
+# Ember Rails Template
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A template for an app with Ember as the frontend and a Rails API as the backend. Includes:
 
-Things you may want to cover:
+- JSON-API
+- OAuth2 authentication
+- Deployment to Heroku
 
-* Ruby version
+## Requirements
 
-* System dependencies
+- Ruby
+- PostgreSQL
+- Node.js
+- Yarn
+- Foreman
 
-* Configuration
+## Setup
 
-* Database creation
+- `bin/bootstrap` - installs Rails dependencies with `bundle install` and Ember dependencies with `yarn install`
 
-* Database initialization
+## Testing
 
-* How to run the test suite
+- `bin/test` - runs Rails tests with `bundle exec rspec` and Ember tests with `ember test`. If a Rails test fails, the Ember test suite will be skipped.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Running
 
-* Deployment instructions
-
-* ...
+- `bin/serve` - runs the Rails server, with Ember building into `public/` and watching for any changes
