@@ -30,3 +30,7 @@ A template for an app with Ember as the frontend and a Rails API as the backend.
 ## Deployment
 
 - `bin/production` - migrates the DB, builds Ember once into the `public/` folder, then starts the Rails server
+
+## License
+
+MIT
