@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+bundle install
+bin/rails db:create:all
+
+cd ember
+yarn install
