@@ -26,3 +26,7 @@ A template for an app with Ember as the frontend and a Rails API as the backend.
 ## Running
 
 - `bin/serve` - runs the Rails server, with Ember building into `public/` and watching for any changes
+
+## Deployment
+
+- `bin/production` - migrates the DB, builds Ember once into the `public/` folder, then starts the Rails server

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+bundle exec rails db:migrate
+cd ember
+ember build
+cd ..
+bundle exec rails server
