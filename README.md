@@ -12,6 +12,7 @@ A template for an app with Ember as the frontend and a Rails API as the backend.
 - PostgreSQL
 - Node.js
 - Yarn
+- Ember CLI
 - Foreman
 
 ## Setup
