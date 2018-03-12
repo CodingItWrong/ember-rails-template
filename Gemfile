@@ -11,6 +11,7 @@ gem 'puma', '~> 3.7'
 gem 'rack-cors'
 gem 'jsonapi-resources'
 gem 'doorkeeper'
+gem 'bcrypt'
 
 group :development, :test do
   gem 'pry'
