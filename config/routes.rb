@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  use_doorkeeper
   scope :api do
+    use_doorkeeper
     jsonapi_resources :posts
   end
 
