@@ -10,6 +10,7 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.7'
 gem 'rack-cors'
 gem 'jsonapi-resources'
+gem 'doorkeeper'
 
 group :development, :test do
   gem 'pry'
